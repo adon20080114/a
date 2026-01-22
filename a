@@ -1,18 +1,1 @@
-<h1>タスク管理アプリ</h1>
 
-<!-- タブ切替 -->
-<div class="tabs">
-  <button id="activeTab" class="active">未完了</button>
-  <button id="completedTab">完了済み</button>
-</div>
-
-<!-- タスク入力欄 -->
-<div class="input-area">
-  <input type="text" id="taskInput" placeholder="タスク名">
-  <textarea id="detailInput" placeholder="タスクの詳細"></textarea>
-  <input type="date" id="dueDate">
-  <button id="addBtn">追加</button>
-</div>
-
-<!-- タスクリスト表示 -->
-<ul id="taskList"></ul>
